@@ -1,0 +1,9 @@
+import type { IphoneModel } from "@/types/iphone";
+
+export const iphoneModels: IphoneModel[] = [
+  { id: "iphone-fold", shortName: "Duo", name: "iPhone Duo", eyebrow: "Два экрана. Один характер.", dimensions: { width: 5.1, height: 3.65, depth: 0.072 }, display: '7,6″ + 5,4″', cameras: 2, cameraSize: 0.28, chip: "A20 Pro", weight: "254 г", size: "164,6 × 117,8 × 5,2 мм", foldedSize: "84,1 × 117,8 × 11,3 мм", thickness: "5,2 мм", foldedThickness: "11,3 мм", material: "Титан", official: true, foldable: true },
+  { id: "iphone-18", shortName: "18", name: "iPhone 18", eyebrow: "Предварительный дизайн", dimensions: { width: 2.04, height: 4.35, depth: 0.128 }, display: "Не объявлен", cameras: 2, cameraSize: 0.43, chip: "Не объявлен", weight: "Не объявлен", size: "Не объявлены", thickness: "—", material: "Концепт", official: false },
+  { id: "iphone-18-air", shortName: "Air", name: "iPhone Air", eyebrow: "Тоньше воздуха", dimensions: { width: 2.1, height: 4.39, depth: 0.092 }, display: '6,5″ OLED', cameras: 1, cameraSize: 0.48, chip: "A19 Pro", weight: "165 г", size: "156,2 × 74,7 × 5,64 мм", thickness: "5,64 мм", material: "Титан", official: true },
+  { id: "iphone-18-pro", shortName: "Pro", name: "iPhone 18 Pro", eyebrow: "Создан для большего", dimensions: { width: 2.1, height: 4.38, depth: 0.138 }, display: '6,3″ OLED', cameras: 3, cameraSize: 0.42, chip: "A20 Pro", weight: "211 г", size: "150 × 71,9 × 8,75 мм", thickness: "8,75 мм", material: "Алюминий", official: true },
+  { id: "iphone-18-pro-max", shortName: "Pro Max", name: "iPhone 18 Pro Max", eyebrow: "Максимальный масштаб", dimensions: { width: 2.2, height: 4.61, depth: 0.144 }, display: '6,9″ OLED', cameras: 3, cameraSize: 0.46, chip: "A20 Pro", weight: "249 г", size: "163,4 × 78 × 8,75 мм", thickness: "8,75 мм", material: "Алюминий", official: true },
+];
