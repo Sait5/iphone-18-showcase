@@ -2,6 +2,8 @@
 
 Интерактивный обзор актуальной линейки iPhone. В центре интерфейса находится интерактивная 3D-модель телефона: её можно вращать, менять модель и покрытие, исследовать отдельные детали и запускать автоматический обзор. Главная страница прокручивается: ниже интерактивной студии находится раздел о профиле, кнопках и инженерной конструкции. Повторного каталога моделей и повторного выбора цвета нет.
 
+**Готовый сайт:** [iphone-18-showcase.vercel.app](https://iphone-18-showcase.vercel.app/)
+
 > 3D-визуализация является независимой интерпретацией. Размеры и масса iPhone Duo, iPhone 18 Pro, iPhone 18 Pro Max и iPhone Air взяты из технических спецификаций Apple. Для базового iPhone 18 официальные параметры ещё не объявлены, поэтому он явно помечен как концепт.
 
 ## Возможности
@@ -44,7 +46,7 @@
 Понадобится Node.js 22 или новее и npm.
 
 ```bash
-git clone https://github.com/USERNAME/iphone-18-showcase.git
+git clone https://github.com/Sait5/iphone-18-showcase.git
 cd iphone-18-showcase
 npm install
 npm run dev
@@ -147,7 +149,7 @@ git init
 git add .
 git commit -m "Initial iPhone 18 showcase"
 git branch -M main
-git remote add origin https://github.com/USERNAME/iphone-18-showcase.git
+git remote add origin https://github.com/Sait5/iphone-18-showcase.git
 git push -u origin main
 ```
 
